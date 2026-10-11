@@ -43,7 +43,15 @@ public final class GodforgeMachines {
                 .hasBER(true)
                 .tooltips(
                         Component.translatable("block.godforge.forge_of_the_gods.tooltip.0"),
-                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.1"))
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.1"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.2"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.3"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.4"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.5"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.6"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.7"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.8"),
+                        Component.translatable("block.godforge.forge_of_the_gods.tooltip.9"))
                 .pattern(GodforgePatterns::full)
                 .register();
     }

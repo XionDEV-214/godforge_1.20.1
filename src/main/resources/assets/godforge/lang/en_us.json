@@ -1,7 +1,16 @@
 {
     "block.godforge.forge_of_the_gods": "Forge of the Gods",
-    "block.godforge.forge_of_the_gods.tooltip.0": "§7A star-forging megastructure. Structure and animation only; recipes are added through KubeJS.",
-    "block.godforge.forge_of_the_gods.tooltip.1": "§7While powered, the rings are removed and replaced by spinning animated rings around a star.",
+
+    "block.godforge.forge_of_the_gods.tooltip.0": "§7§oThe Forge of the Gods(GORGE) is an unfathomably powerful structure built around a stabilized neutron star.",
+    "block.godforge.forge_of_the_gods.tooltip.1": "§7§oIts advanced technology remains poorly understood,",
+    "block.godforge.forge_of_the_gods.tooltip.2": "§7§obut one thing is certain: its power can replace nearly any conventional process.",
+    "block.godforge.forge_of_the_gods.tooltip.3": "§7§oMagmatter, Redux, and Mellion can only be found",
+    "block.godforge.forge_of_the_gods.tooltip.4": "§7§owhere ordinary matter meets degenerate neutron matter on the neutron star's surface.",
+    "block.godforge.forge_of_the_gods.tooltip.5": "§7§oGORGE allows these materials to be produced more efficiently,",
+    "block.godforge.forge_of_the_gods.tooltip.6": "§7§oeliminating the need for conventional DTPF-based production methods.",
+    "block.godforge.forge_of_the_gods.tooltip.7": "§7§oThese materials can barely exist outside the Foundry's extreme conditions,",
+    "block.godforge.forge_of_the_gods.tooltip.8": "§7§obut continued research may one day make their extraction possible.",
+    "block.godforge.forge_of_the_gods.tooltip.9": "§7§oThough, one must wonder... would there even be a reason to?",
 
     "gtceu.recipe_type.forge_of_the_gods": "Forge of the Gods"
 }

@@ -1,7 +1,17 @@
-{
-    "block.godforge.forge_of_the_gods": "신들의 용광로",
-    "block.godforge.forge_of_the_gods.tooltip.0": "§7별을 벼리는 거대 구조물입니다. 구조와 애니메이션만 구현되어 있으며, 레시피는 KubeJS로 추가합니다.",
-    "block.godforge.forge_of_the_gods.tooltip.1": "§7전원이 공급되는 동안 링 블록이 치워지고, 별 주위를 회전하는 애니메이션 링이 대신 그려집니다.",
 
-    "gtceu.recipe_type.forge_of_the_gods": "신들의 용광로"
+{
+    "block.godforge.forge_of_the_gods": "신들의 제련소",
+
+    "block.godforge.forge_of_the_gods.tooltip.0": "§7§o신들의 제련소(GORGE)는 안정화된 중성자별을 중심으로 건설된, 형용할 수 없을 정도로 강력한 구조물입니다.",
+    "block.godforge.forge_of_the_gods.tooltip.1": "§7§o첨단 기술로 이루어진 이 구조물의 능력은 아직 완전히 파악되지 않았지만,",
+    "block.godforge.forge_of_the_gods.tooltip.2": "§7§o한 가지는 확실합니다. 중성자별의 힘으로 기존의 거의 모든 공정을 대체할 수 있다는 것입니다.",
+    "block.godforge.forge_of_the_gods.tooltip.3": "§7§o매그매터, 리덕스, 멜리온은 오직 중성자별 표면에서",
+    "block.godforge.forge_of_the_gods.tooltip.4": "§7§o일반 물질과 퇴화된 중성자 물질이 맞닿는 지점에서만 발견됩니다.",
+    "block.godforge.forge_of_the_gods.tooltip.5": "§7§oGORGE를 이용하면 이러한 물질을 더욱 효율적으로 생산할 수 있으며,",
+    "block.godforge.forge_of_the_gods.tooltip.6": "§7§o기존의 DTPF 기반 생산 방식을 사용할 필요도 없습니다.",
+    "block.godforge.forge_of_the_gods.tooltip.7": "§7§o이러한 물질은 제련소의 극한 환경을 벗어나면 거의 존재할 수 없지만,",
+    "block.godforge.forge_of_the_gods.tooltip.8": "§7§o지속적인 연구를 통해 언젠가는 외부로 추출할 수 있게 될지도 모릅니다.",
+    "block.godforge.forge_of_the_gods.tooltip.9": "§7§o그런데요... 과연 그래야 할 필요가 있을까요?",
+
+    "gtceu.recipe_type.forge_of_the_gods": "신들의 제련소"
 }
