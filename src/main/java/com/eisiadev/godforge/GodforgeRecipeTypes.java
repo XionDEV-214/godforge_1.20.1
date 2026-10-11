@@ -17,12 +17,12 @@ public final class GodforgeRecipeTypes {
     public static GTRecipeType FORGE_OF_THE_GODS;
 
     public static void init() {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(GodforgeMod.MODID, "forge_of_the_gods");
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath("gtceu", "forge_of_the_gods");
         FORGE_OF_THE_GODS = new GTRecipeType(id, "forge_of_the_gods")
-                .setMaxIOSize(16, 16, 16, 16)
+                .setMaxIOSize(9, 9, 9, 9)
                 .setEUIO(IO.IN)
-                .setProgressBar(GuiTextures.PROGRESS_BAR_FUSION, ProgressTexture.FillDirection.LEFT_TO_RIGHT)
-                .setSound(GTSoundEntries.ARC);
+                .setProgressBar(GuiTextures.PROGRESS_BAR_REPLICATOR, ProgressTexture.FillDirection.LEFT_TO_RIGHT)
+                .setSound(GTSoundEntries.REPLICATOR);
 
         GTRegistries.RECIPE_TYPES.register(id, FORGE_OF_THE_GODS);
     }
