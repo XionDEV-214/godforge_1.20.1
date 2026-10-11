@@ -1,0 +1,7 @@
+{
+    "block.godforge.forge_of_the_gods": "Forge of the Gods",
+    "block.godforge.forge_of_the_gods.tooltip.0": "§7A star-forging megastructure. Structure and animation only; recipes are added through KubeJS.",
+    "block.godforge.forge_of_the_gods.tooltip.1": "§7While powered, the rings are removed and replaced by spinning animated rings around a star.",
+
+    "gtceu.recipe_type.forge_of_the_gods": "Forge of the Gods"
+}

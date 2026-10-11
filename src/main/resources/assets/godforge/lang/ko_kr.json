@@ -1,0 +1,7 @@
+{
+    "block.godforge.forge_of_the_gods": "신들의 용광로",
+    "block.godforge.forge_of_the_gods.tooltip.0": "§7별을 벼리는 거대 구조물입니다. 구조와 애니메이션만 구현되어 있으며, 레시피는 KubeJS로 추가합니다.",
+    "block.godforge.forge_of_the_gods.tooltip.1": "§7전원이 공급되는 동안 링 블록이 치워지고, 별 주위를 회전하는 애니메이션 링이 대신 그려집니다.",
+
+    "gtceu.recipe_type.forge_of_the_gods": "신들의 용광로"
+}
