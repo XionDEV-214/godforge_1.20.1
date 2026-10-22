@@ -38,6 +38,25 @@ public final class GodforgeBlocks {
     public static Block guidance() { return casing(GUIDANCE); }
     public static Block magnetic() { return casing(MAGNETIC_CONFINEMENT); }
 
+    public static final String ETERNAL_COIL = "eternal_coil_block";
+
+    public static Block moduleCore() { return casing(ETERNAL_COIL); }
+
+    public static final ResourceLocation SHIELDING_MODEL = ResourceLocation.fromNamespaceAndPath("gtceu",
+            "block/" + SHIELDING);
+
+    @Nullable
+    public static Block forModuleLetter(char letter) {
+        return switch (letter) {
+            case 'A' -> moduleCore();
+            case 'B', 'C', '~' -> shielding();
+            case 'D', 'E' -> guidance();
+            case 'F' -> magnetic();
+            case 'G' -> casing(STELLAR_ENERGY);
+            default -> null;
+        };
+    }
+
     @Nullable
     public static Block forLetter(char letter) {
         return switch (letter) {

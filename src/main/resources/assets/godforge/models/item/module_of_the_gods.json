@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "godforge:item/module_of_the_gods_blueprint"
+    }
+}

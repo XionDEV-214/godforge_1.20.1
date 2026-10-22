@@ -1,6 +1,5 @@
 {
     "block.godforge.forge_of_the_gods": "Forge of the Gods",
-
     "block.godforge.forge_of_the_gods.tooltip.0": "§7§oThe Forge of the Gods(GORGE) is an unfathomably powerful structure built around a stabilized neutron star.",
     "block.godforge.forge_of_the_gods.tooltip.1": "§7§oIts advanced technology remains poorly understood,",
     "block.godforge.forge_of_the_gods.tooltip.2": "§7§obut one thing is certain: its power can replace nearly any conventional process.",
@@ -11,6 +10,31 @@
     "block.godforge.forge_of_the_gods.tooltip.7": "§7§oThese materials can barely exist outside the Foundry's extreme conditions,",
     "block.godforge.forge_of_the_gods.tooltip.8": "§7§obut continued research may one day make their extraction possible.",
     "block.godforge.forge_of_the_gods.tooltip.9": "§7§oThough, one must wonder... would there even be a reason to?",
-
-    "gtceu.recipe_type.forge_of_the_gods": "Forge of the Gods"
+    "gtceu.godforge_smeltery": "Smeltery Mode",
+    "gtceu.godforge_plasmafy": "Plasmafy Mode",
+    "gtceu.godforge_deplasmafy": "Deplasmafy Mode",
+    "gtceu.godforge_fusion": "Fusion Mode",
+    "block.godforge.forge_of_the_gods.tooltip.modules.0": "§bModules:§7 up to 16 Module of the Gods on the beam shaft. Hold a §bModule of the Gods Blueprint§7 near the forge to see where.",
+    "block.godforge.forge_of_the_gods.tooltip.modules.1": "§bExoticizer Mode:§7 each module adds +50%% recipe time and +100%% output.",
+    "block.godforge.forge_of_the_gods.tooltip.modules.2": "§bOther modes:§7 Parallel Hatch parallels x module count, and each module overclocks a little (16 modules = 2x speed, no extra EU/t).",
+    "block.godforge.module_of_the_gods": "Module of the Gods",
+    "block.godforge.module_of_the_gods.tooltip.0": "§7A Module of the Gods has no controller and does nothing on its own; the Forge of the Gods counts it.",
+    "block.godforge.module_of_the_gods.tooltip.1": "§bHold this:§7 the forge's 16 module slots light up (§agreen§7 done, §eyellow§7 empty, §bcyan§7 next) and the next module appears as ghost blocks.",
+    "block.godforge.module_of_the_gods.tooltip.2": "§bRight-click the cyan casing:§7 builds that module from blocks in your inventory. The blueprint itself is not consumed.",
+    "block.godforge.module_of_the_gods.tooltip.3": "§7Exoticizer Mode: +50%% time, +100%% output per module. Other modes: Parallel Hatch x module count, up to 2x speed.",
+    "godforge.multiblock.modules": "Modules: %s / %s",
+    "godforge.multiblock.exotic_bonus": "Module effect: time x%s, output x%s",
+    "godforge.multiblock.parallel_bonus": "Module effect: Parallel Hatch x%s (up to %s parallels), speed x%s",
+    "gtceu.godforge_exoticizer": "Exoticizer Mode",
+    "item.godforge.module_of_the_gods_blueprint": "Module of the Gods Blueprint",
+    "block.godforge.module_of_the_gods.tooltip.4": "§8Not placeable. Show its uses in JEI (U) to see the full module structure and block list.",
+    "godforge.multiblock.modules.hint": "Hold a Module of the Gods Blueprint to see where the next module goes.",
+    "godforge.module.holding_hint": "Modules %s/%s — right-click the cyan casing to build the next one (%s blocks left)",
+    "godforge.module.all_complete": "All 16 modules are complete!",
+    "godforge.module.not_a_slot": "Right-click a highlighted casing on a formed Forge of the Gods' beam shaft.",
+    "godforge.module.already_complete": "This module is already complete.",
+    "godforge.module.completed": "Module complete! (%s / %s)",
+    "godforge.module.built": "Placed %s blocks.",
+    "godforge.module.missing": "Missing from your inventory:",
+    "godforge.module.obstructed": "%s positions are blocked by other blocks (red outlines)."
 }

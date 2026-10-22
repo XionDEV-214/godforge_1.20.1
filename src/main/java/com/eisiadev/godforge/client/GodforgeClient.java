@@ -10,6 +10,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.event.RegisterClientReloadListenersEvent;
 import net.minecraftforge.client.event.RegisterShadersEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 @OnlyIn(Dist.CLIENT)
@@ -24,5 +25,7 @@ public final class GodforgeClient {
         modBus.addListener(GodforgeShaders::onRegisterShaders);
         modBus.addListener((RegisterClientReloadListenersEvent event) ->
                 event.registerReloadListener((ResourceManagerReloadListener) rm -> GodforgeMeshes.release()));
+
+        MinecraftForge.EVENT_BUS.addListener(GodforgeModuleGhosts::onRenderLevel);
     }
 }
